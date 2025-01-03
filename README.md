@@ -1,5 +1,13 @@
 # Tarim-Otomasyonu
+•Can ÇIKRIKÇI-220260003
 
+•Uğur ÇETİNKAYA-220260013
+
+•Taha Mümin GÖBEK-220260035
+
+Tarım Otomasyon Sistemi, tarımsal faaliyetlerin ve kaynakların etkin bir şekilde yönetilmesi için geliştirilmiştir. Bu sistem, çiftlik bilgileri, silo kapasiteleri, tarım alanları, tarım araçları, ekim ve hasat süreçleri, bakım işlemleri ve kullanıcı verileri gibi ana varlıklardan oluşur.
+
+Varlık-Özellik Tablosu:
 | Varlık        | Özellikler                                                                                       |
 |---------------|--------------------------------------------------------------------------------------------------|
 | Çiftlik       | Çiftlik_ID (INT, PK), Ad (NVARCHAR(50)), Konum (NVARCHAR(100))                                   |
@@ -12,6 +20,7 @@
 
 
 
+Varlık-İlişki Tablosu:
 | Varlık 1      | Varlık 2      | İlişki       |
 |---------------|---------------|--------------|
 | Çiftlik       | Silo          | Sahibi (1-N) |
@@ -19,4 +28,8 @@
 | Çiftlik       | Tarım Aracı   | Sahibi (1-N) |
 | Tarım Alanı   | Ekim/Hasat    | İçerir (1-N) |
 | Tarım Aracı   | Bakım         | Sahip (1-1) |
-| Kullanıcı     | Çiftlik       | Sahibi (N-1) |
+| Kullanıcı     | Çiftlik       | Sahibi (N-N) |
+
+Projenin E-R Diyagramı Aşağıda Verilmiştir.
+
+![WhatsApp Görsel 2025-01-02 saat 16 39 41_71fe9306](https://github.com/user-attachments/assets/a4d84bb6-7daa-4872-b6d1-5afd5ef89b0f)
