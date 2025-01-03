@@ -9,3 +9,14 @@
 | Ekim/Hasat    | İşlem_ID (INT, PK), Alan_ID (INT, FK), Tarih (DATE), İşlem_Türü (NVARCHAR(20))                   |
 | Bakım         | Bakım_ID (INT, PK), Araç_ID (INT, FK), Tarih (DATE), Bakım_Türü (NVARCHAR(50))                   |
 | Kullanıcı     | Kullanıcı_ID (INT, PK), İsim (NVARCHAR(50)), Soyisim (NVARCHAR(50)), Email (NVARCHAR(100)), Şifre (NVARCHAR(50)) |
+
+
+
+| Varlık 1      | Varlık 2      | İlişki       |
+|---------------|---------------|--------------|
+| Çiftlik       | Silo          | Sahibi (1-N) |
+| Çiftlik       | Tarım Alanı   | Sahibi (1-N) |
+| Çiftlik       | Tarım Aracı   | Sahibi (1-N) |
+| Tarım Alanı   | Ekim/Hasat    | İçerir (1-N) |
+| Tarım Aracı   | Bakım         | Sahibi (1-N) |
+| Kullanıcı     | Çiftlik       | Sahibi (1-N) |
