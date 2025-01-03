@@ -3,7 +3,7 @@
 
 •Uğur ÇETİNKAYA-220260013
 
-•Taha Mümin GÖBEK-220260035
+•Taha M. GÖBEK-220260035
 
 Tarım Otomasyon Sistemi, tarımsal faaliyetlerin ve kaynakların etkin bir şekilde yönetilmesi için geliştirilmiştir. Bu sistem, çiftlik bilgileri, silo kapasiteleri, tarım alanları, tarım araçları, ekim ve hasat süreçleri, bakım işlemleri ve kullanıcı verileri gibi ana varlıklardan oluşur.
 
