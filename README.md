@@ -18,5 +18,5 @@
 | Çiftlik       | Tarım Alanı   | Sahibi (1-N) |
 | Çiftlik       | Tarım Aracı   | Sahibi (1-N) |
 | Tarım Alanı   | Ekim/Hasat    | İçerir (1-N) |
-| Tarım Aracı   | Bakım         | Sahibi (1-N) |
-| Kullanıcı     | Çiftlik       | Sahibi (1-N) |
+| Tarım Aracı   | Bakım         | Sahip (1-1) |
+| Kullanıcı     | Çiftlik       | Sahibi (N-1) |
