@@ -32,4 +32,4 @@ Varlık-İlişki Tablosu:
 
 Projenin E-R Diyagramı Aşağıda Verilmiştir.
 
-![WhatsApp Görsel 2025-01-02 saat 16 39 41_71fe9306](https://github.com/user-attachments/assets/a4d84bb6-7daa-4872-b6d1-5afd5ef89b0f)
+![veritabaniDiyagrami](https://github.com/user-attachments/assets/ff6b6bae-0a47-48c2-82fb-ddcdc00d14e0)
