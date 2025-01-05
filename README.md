@@ -38,7 +38,8 @@ Tarım Otomasyon Sistemi, tarımsal faaliyetlerin ve kaynakların etkin bir şek
 
 Projenin E-R Diyagramları Aşağıda Verilmiştir.
 
-![WhatsApp Görsel 2025-01-05 saat 12 34 31_323d9ec9](https://github.com/user-attachments/assets/c24bcb3e-a5cc-4349-97b0-eb5548e238bf)
+![WhatsApp Görsel 2025-01-05 saat 13 01 37_7665df15](https://github.com/user-attachments/assets/82780838-f817-484b-a010-d879b80f4d8e)
+
 
 
 ![E-R Diyagramı](https://github.com/user-attachments/assets/c9b662f0-b66c-45fe-a826-02237e5f1564)
