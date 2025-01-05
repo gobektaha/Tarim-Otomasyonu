@@ -9,17 +9,18 @@ Tarım Otomasyon Sistemi, tarımsal faaliyetlerin ve kaynakların etkin bir şek
 
 ## Varlık-Özellik Tablosu
 
-| VARLIK            | ÖZELLİKLER                                        |
+| VARLIK            | OZELLIKLER                                        |
 |--------------------|--------------------------------------------------|
-| Çiftlik           | ÇiftlikID, Ad, Konum                             |
-| Silo              | SiloID, ÇiftlikID, Kapasite, DolulukOranı, MevcutDoluluk |
-| TarımsalArazi     | AraziID, ÇiftlikID, EkimDurumu, HasatDurumu      |
-| TarımAracı        | AracID, ÇiftlikID, AracTürü, BakımDurumu         |
-| ÇiftlikÇalışanı   | ÇalışanID, ÇiftlikID, Ad, Soyad, Pozisyon        |
-| ÇiftlikHesap      | HesapID, ÇiftlikID, İşlemTürü, Miktar, Bakiye, Tarih |
-| EkimHasat         | İşlemID, AraziID, İşlemTürü, Tarih               |
-| ÇalışanArazi      | ÇalışanID, AraziID, GörevTarihi                  |
-| Bakım             | BakımID, AracID, BakımTürü, Tarih                |
+| Ciftlik           | CiftlikID, Ad, Konum                             |
+| Silo              | SiloID, CiftlikID, Kapasite, DolulukOrani, MevcutDoluluk |
+| TarimsalArazi     | AraziID, CiftlikID, EkimDurumu, HasatDurumu      |
+| TarimAraci        | AracID, CiftlikID, AracTuru, BakimDurumu         |
+| CiftlikCalisani   | CalisanID, CiftlikID, Ad, Soyad, Pozisyon        |
+| CiftlikHesap      | HesapID, CiftlikID, IslemTuru, Miktar, Bakiye, Tarih |
+| EkimHasat         | IslemID, AraziID, IslemTuru, Tarih               |
+| CalisanArazi      | CalisanID, AraziID, GorevTarihi                  |
+| Bakim             | BakimID, AracID, BakimTuru, Tarih                |
+
 
 ## Varlık-İlişki Tablosu
 
