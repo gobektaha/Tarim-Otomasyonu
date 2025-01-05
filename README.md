@@ -28,8 +28,8 @@ Tarım Otomasyon Sistemi, tarımsal faaliyetlerin ve kaynakların etkin bir şek
 |---------------------|----------|-------------------|----------------------|
 | Ciftlik            | 1-1      | CiftlikHesap      | Yonetir.            |
 | Ciftlik            | 1-n      | TarimsalArazi     | Bulundurur.         |
-| Ciftlik            | 1-n      | Silo              | Sahip olur.         |
-| Ciftlik            | 1-n      | TarimAraci        | Kullani.            |
+| Ciftlik            | 1-n      | Silo              | Sahiptir.         |
+| Ciftlik            | 1-n      | TarimAraci        | Kullanir.            |
 | TarimsalArazi      | 1-n      | EkimHasat         | Islemi Gecirir.     |
 | TarimAraci         | 1-n      | Bakim             | Gerektirir.         |
 | Ciftlik            | 1-n      | CiftlikCalisani   | Bulundurur.         |
