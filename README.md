@@ -9,18 +9,17 @@ Tarım Otomasyon Sistemi, tarımsal faaliyetlerin ve kaynakların etkin bir şek
 
 ## Varlık-Özellik Tablosu
 
-| Varlık            | Özellikler                                                        |
-|--------------------|-------------------------------------------------------------------|
-| Çiftlik           | ÇiftlikID, Ad, Konum                                             |
-| Silo              | SiloID, ÇiftlikID, Kapasite, DolulukOranı                        |
-| TarımsalArazi     | AraziID, ÇiftlikID, EkimDurumu, HasatDurumu                      |
-| TarımAracı        | AracID, ÇiftlikID, AracTürü, BakımDurumu                         |
-| EkimHasat         | İşlemID, AraziID, İşlemTürü, Tarih                               |
-| Bakım             | BakımID, AracID, BakımTürü, Tarih                                |
-| ÇiftlikÇalışanı   | ÇalışanID, ÇiftlikID, Ad, Soyad, Pozisyon                        |
-| ÇalışanArazi      | ÇalışanID, AraziID, GörevTarihi                                  |
-| ÇiftlikHesap      | HesapID, ÇiftlikID, İşlemTürü, Miktar, Bakiye, Tarih             |
-
+| VARLIK            | ÖZELLİKLER                                        |
+|--------------------|--------------------------------------------------|
+| Çiftlik           | ÇiftlikID, Ad, Konum                             |
+| Silo              | SiloID, ÇiftlikID, Kapasite, DolulukOranı, MevcutDoluluk |
+| TarımsalArazi     | AraziID, ÇiftlikID, EkimDurumu, HasatDurumu      |
+| TarımAracı        | AracID, ÇiftlikID, AracTürü, BakımDurumu         |
+| ÇiftlikÇalışanı   | ÇalışanID, ÇiftlikID, Ad, Soyad, Pozisyon        |
+| ÇiftlikHesap      | HesapID, ÇiftlikID, İşlemTürü, Miktar, Bakiye, Tarih |
+| EkimHasat         | İşlemID, AraziID, İşlemTürü, Tarih               |
+| ÇalışanArazi      | ÇalışanID, AraziID, GörevTarihi                  |
+| Bakım             | BakımID, AracID, BakımTürü, Tarih                |
 
 ## Varlık-İlişki Tablosu
 
@@ -32,8 +31,8 @@ Tarım Otomasyon Sistemi, tarımsal faaliyetlerin ve kaynakların etkin bir şek
 | Çiftlik            | 1-n      | TarımAracı        | Kullanır.                      |
 | TarımsalArazi      | 1-n      | EkimHasat         | İşlemi Geçirir.                |
 | TarımAracı         | 1-n      | Bakım             | Gerektirir.                         |
-| Çiftlik            | 1-n      | ÇiftlikÇalışanı   | Bulundurur.                          |
-| ÇiftlikÇalışanı    | n-m      | ÇalışanArazi      | Görev Alır. |
+| Çiftlik            | 1-n      | ÇiftlikÇalışani   | Bulundurur.                          |
+| ÇiftlikÇalışani    | n-m      | ÇalışanArazi      | Görev Alır. |
 
 
 Projenin E-R Diyagramı Aşağıda Verilmiştir.
