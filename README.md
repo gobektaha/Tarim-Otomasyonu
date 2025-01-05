@@ -36,6 +36,14 @@ Tarım Otomasyon Sistemi, tarımsal faaliyetlerin ve kaynakların etkin bir şek
 | CiftlikCalisani    | n-m      | CalisanArazi      | Gorev Alir.         |
 
 
-Projenin E-R Diyagramı Aşağıda Verilmiştir.
+Projenin E-R Diyagramları Aşağıda Verilmiştir.
 
-![veritabaniDiyagrami](https://github.com/user-attachments/assets/ff6b6bae-0a47-48c2-82fb-ddcdc00d14e0)
+![WhatsApp Görsel 2025-01-05 saat 12 34 31_323d9ec9](https://github.com/user-attachments/assets/c24bcb3e-a5cc-4349-97b0-eb5548e238bf)
+
+
+![E-R Diyagramı](https://github.com/user-attachments/assets/c9b662f0-b66c-45fe-a826-02237e5f1564)
+
+
+
+
+
