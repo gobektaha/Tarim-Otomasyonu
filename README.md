@@ -26,7 +26,7 @@ Tarım Otomasyon Sistemi, tarımsal faaliyetlerin ve kaynakların etkin bir şek
 
 | Kaynak Varlik      | Iliski   | Hedef Varlik      | Aciklama             |
 |---------------------|----------|-------------------|----------------------|
-| Ciftlik            | 1-1      | CiftlikHesap      | Yonetir.            |
+| Ciftlik            | 1-n      | CiftlikHesap      | Yonetir.            |
 | Ciftlik            | 1-n      | TarimsalArazi     | Bulundurur.         |
 | Ciftlik            | 1-n      | Silo              | Sahiptir.         |
 | Ciftlik            | 1-n      | TarimAraci        | Kullanir.            |
@@ -41,8 +41,7 @@ Projenin E-R Diyagramları Aşağıda Verilmiştir.
 ![WhatsApp Görsel 2025-01-05 saat 13 01 37_7665df15](https://github.com/user-attachments/assets/82780838-f817-484b-a010-d879b80f4d8e)
 
 
-
-![E-R Diyagramı](https://github.com/user-attachments/assets/c9b662f0-b66c-45fe-a826-02237e5f1564)
+![E-R Diyagramı](https://github.com/user-attachments/assets/6ec4bb05-4a03-4e3d-a6e6-70708832db84)
 
 
 Proje Raporu
