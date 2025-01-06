@@ -46,7 +46,8 @@ Projenin E-R Diyagramları Aşağıda Verilmiştir.
 
 Proje Raporu
 -------------
-[rapor.pdf](https://github.com/user-attachments/files/18311292/rapor.pdf)
+[12_22026003_220260013_220260035.pdf](https://github.com/user-attachments/files/18322328/12_22026003_220260013_220260035.pdf)
+
 
 
 
